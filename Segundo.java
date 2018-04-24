@@ -67,7 +67,7 @@ public class Segundo {
 					while(opcao4) {
 						System.out.println("Informe o e-mail do cliente");
 						String oEmail = scan.next();
-						if (oEmail.matches("^[a-zA-Z0-9\\-_\\.]+@[a-zA-Z0-9]+$")) {
+						if (oEmail.matches("^[a-z0-9\\-_\\.]+@[a-z0-9]+\\..+$")) { 
 							emailContato[contador] = oEmail;
 							opcao4 = false;
 						} else {
